@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :businesses
+
+  resources :nouns
+
   devise_for :wordsmiths, :skip => :registrations
   root 'home#index'
 
