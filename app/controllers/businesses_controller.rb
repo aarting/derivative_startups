@@ -1,4 +1,5 @@
 class BusinessesController < ApplicationController
+  before_action :authenticate_wordsmith!
   before_action :set_business, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
