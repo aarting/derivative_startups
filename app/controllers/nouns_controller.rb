@@ -1,4 +1,5 @@
 class NounsController < ApplicationController
+  before_action :authenticate_wordsmith!
   before_action :set_noun, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
