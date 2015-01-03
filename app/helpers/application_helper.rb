@@ -5,6 +5,6 @@ module ApplicationHelper
 	end	
 
 	def twitter_text(noun, business)
-		"I just founded #{business.name} for #{noun.name}! Check it out! @derivativestartups #derivativestartups"
+		"I just founded #{business.name} for #{noun.name}! Check it out! @derivstartups #derivativestartups"
 	end	
 end
