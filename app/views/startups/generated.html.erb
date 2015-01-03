@@ -1,3 +1,12 @@
-<h1>Startup</h1>
-<%= render "blank_for_blank" %>
+<body>
+	<h1>Startup</h1>
+	<%= render "blank_for_blank" %>
 
+	<button onclick="newStartup()">Generate Another Startup</button>
+
+	<script>
+	function newStartup() {
+	    location.reload();
+	}
+	</script>
+</body>
