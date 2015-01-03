@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'startups/generated'
+
   resources :businesses
 
   resources :nouns
